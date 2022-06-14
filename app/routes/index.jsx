@@ -21,12 +21,12 @@ export default function Index() {
       </nav>
 
       {/* Main Content */}
-      <div className="max-w-full 3xl:max-w-fb 3xl:mx-auto mt-4">
+      <div className="max-w-full 3xl:max-w-fb 3xl:mx-auto mt-6">
         <div className="flex">
           <div className="flex-1 hidden pl-4 xl:block">
             <Left />
           </div>
-          <div className='mx:auto px-24 lg:px-8 xl:px-0 lg:w-2/3'>
+          <div className='mx:auto px-24 lg:px-8 xl:px-0 lg:w-2/4'>
             <Middle />
           </div>
           <div className="hidden flex-1 lg:block">

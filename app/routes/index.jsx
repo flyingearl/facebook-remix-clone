@@ -20,9 +20,9 @@ export default function Index() {
       {/* Main Content */}
       <div className="max-w-full 3xl:max-w-fb 3xl:mx-auto mt-4">
         <div className="flex">
-          <div className="flex-1">left</div>
-          <div>middle</div>
-          <div className="flex-1 text-right">
+          <div className="flex-1 hidden xl:block">left</div>
+          <div className='mx:auto px-24 lg:px-8 xl:px-0 lg:w-2/3'>middle</div>
+          <div className="hidden flex-1 lg:block">
             right
           </div>
         </div>

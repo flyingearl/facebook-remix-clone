@@ -1,4 +1,4 @@
-import { HomeIcon, ChevronDownIcon, BellIcon, ChatIcon, MenuIcon } from '@heroicons/react/solid'
+import { ChevronDownIcon, BellIcon, ChatIcon, MenuIcon } from '@heroicons/react/solid'
 
 export default function RightNav() {
     return (
@@ -19,7 +19,7 @@ export default function RightNav() {
             <MenuIcon className='w-5 h-5' />
           </div>
 
-          <div className='inline-flex items-center justify-center my-auto mr-4'>
+          <div className='inline-flex items-center justify-center my-auto mr-4 hidden xl:block'>
             <img
                 className="inline-block h-7 w-7 rounded-full mr-2"
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"

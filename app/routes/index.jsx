@@ -1,6 +1,9 @@
 import LeftNav from '../components/nav/LeftNav'
 import MiddleNav from '../components/nav/MiddleNav'
 import RightNav from '../components/nav/RightNav'
+import Left from '../components/content/Left'
+import Middle from '../components/content/Middle'
+import Right from '../components/content/Right'
 
 export default function Index() {
   return (
@@ -20,10 +23,14 @@ export default function Index() {
       {/* Main Content */}
       <div className="max-w-full 3xl:max-w-fb 3xl:mx-auto mt-4">
         <div className="flex">
-          <div className="flex-1 hidden xl:block">left</div>
-          <div className='mx:auto px-24 lg:px-8 xl:px-0 lg:w-2/3'>middle</div>
+          <div className="flex-1 hidden pl-4 xl:block">
+            <Left />
+          </div>
+          <div className='mx:auto px-24 lg:px-8 xl:px-0 lg:w-2/3'>
+            <Middle />
+          </div>
           <div className="hidden flex-1 lg:block">
-            right
+            <Right />
           </div>
         </div>
       </div>

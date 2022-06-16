@@ -1,6 +1,6 @@
 export default function LeftLink({ link }) {
     return (
-        <li key={link.id} className="cursor-pointer">
+        <li key={link.id} className="cursor-pointer hover:bg-gray-200 rounded-lg py-2 pl-1 transition ease-in duration-100">
             <div className="flex items-center space-x-3">
                 {link.icon 
                 ? <link.src className="inline-block h-9 w-9 text-fb-blue" />

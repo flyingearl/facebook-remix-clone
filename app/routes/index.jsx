@@ -21,7 +21,7 @@ export default function Index() {
       </nav>
 
       {/* Main Content */}
-      <div className="max-w-full 3xl:max-w-fb 3xl:mx-auto mt-6">
+      <div className="max-w-full 3xl:max-w-fb 3xl:mx-auto mt-5">
         <div className="flex">
           <div className="flex-1 hidden pl-4 xl:block">
             <Left />

@@ -23,11 +23,11 @@ export default function Left() {
     return (
         <div className="mr-8">
             <div className="mb-3 pb-3 border-b border-b-gray-300">
-                <ul className="space-y-4">
+                <ul>
                     {links.map((link) => (
                         <LeftLink link={link} />
                     ))}
-                    <li className="cursor-pointer">
+                    <li className="cursor-pointer hover:bg-gray-200 rounded-lg py-2 pl-1 transition ease-in duration-100">
                         <div className="flex items-center space-x-3">
                             <div className="flex bg-gray-200 rounded-full w-9 h-9 items-center justify-center">
                                 <ChevronDownIcon className="w-6 h-6" />
@@ -39,9 +39,9 @@ export default function Left() {
             </div>
             <div>
                 <h3 className="text-gray-500 font-medium text-md mb-3">Your Shortcuts</h3>
-                <ul className="space-y-4">
+                <ul>
                     {shortcuts.map((shortcut) => (
-                        <li key={shortcut.id} className="cursor-pointer">
+                        <li key={shortcut.id} className="cursor-pointer hover:bg-gray-200 rounded-lg py-2 pl-1 transition ease-in duration-100">
                             <div className="flex items-center space-x-3">
                                 <img
                                     className="inline-block h-9 w-9 rounded-md"
@@ -53,7 +53,7 @@ export default function Left() {
                             </div>
                         </li>
                     ))}
-                    <li className="cursor-pointer">
+                    <li className="cursor-pointer hover:bg-gray-200 rounded-lg py-2 pl-1 transition ease-in duration-100">
                         <div className="flex items-center space-x-3">
                             <div className="flex bg-gray-200 rounded-full w-9 h-9 items-center justify-center">
                                 <ChevronDownIcon className="w-6 h-6" />
